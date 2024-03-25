@@ -1,3 +1,3 @@
 a=3
 b='C'
-print("%d %s"%(a, b), sep='...')
+print("%d"%a, "%s"%b, sep='...')
