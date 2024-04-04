@@ -1,0 +1,5 @@
+n=input().split("-")
+month=int(n[0])
+day=int(n[1])
+year=int(n[2])
+print(f"{year}.{month}.{day}")
