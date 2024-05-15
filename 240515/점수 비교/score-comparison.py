@@ -10,3 +10,5 @@ b_eng=int(y[1])
 
 if a_math>b_math and a_eng>b_eng:
     print(1)
+else:
+    print(0)
