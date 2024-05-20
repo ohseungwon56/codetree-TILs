@@ -4,9 +4,13 @@ a=int(arr[0])
 b=int(arr[1])
 c=int(arr[2])
 
+sep=0
+
 if a<=b and a<=c:
-    print(a)
+    sep=a
 if b<=a and b<=c:
-    print(b)
+    sep=b
 if c<=a and c<=b:
-    print(c)
+    sep=c
+
+print(sep)
