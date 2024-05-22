@@ -4,5 +4,5 @@ a, b = int(arr[1]), int(arr[0])
 
 n=b
 while n>=a:
-    print(n)
+    print(n, end=' ')
     n-=2
