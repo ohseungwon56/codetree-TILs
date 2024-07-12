@@ -2,7 +2,7 @@ x, y = 0, 0
 dir_num = 3
 
 dir = input()
-for i in range (100000):
+for i in range (len(dir)):
     a=list(dir)
     if a[i] == 'L':
         new_dir = (dir_num+3)%4
